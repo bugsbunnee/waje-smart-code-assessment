@@ -15,7 +15,7 @@ describe("TaskList", () => {
         await waitForElementToBeRemoved(() => screen.getAllByTestId('task-skeleton'));
         
         const taskCards = await screen.getAllByTestId("task-card");
-        expect(taskCards.length).toBeGreaterThan(0);
+        expect(taskCards.length).toBe(TEST_TODOS.length);
    });
   
    it('Should render the card skeletons while loading the todos from the server.', async () => {
