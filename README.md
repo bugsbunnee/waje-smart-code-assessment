@@ -31,3 +31,5 @@ ASSUMPTIONS:
 BRANCHING STRATEGY
 
 - Branch Name (main): I use the main branch for all deployments and chose vercel as my deployment channel. This was based on the instruction given, i.e. the branch name.
+
+APP URL: https://waje-smart-code-assessment.vercel.app/
