@@ -38,11 +38,11 @@ const NavBar: React.FC = () => {
                     <h2 className='font-semibold'>Don't have any new task?</h2>
 
                     <button 
-                        className='flex items-center text-sm bg-blue-300 p-2 mt-3 rounded'
+                        className='flex font-medium text-center items-center text-sm bg-blue-300 p-2 mt-3 rounded w-full'
                         onClick={() => taskStore.setAddNewTask(true)}
                     >
                         <PiPlus className='me-2' />
-                        <span className='font-medium'>Create new</span>
+                        <span className='w-full'>Create new</span>
                     </button>
                 </div>
 
