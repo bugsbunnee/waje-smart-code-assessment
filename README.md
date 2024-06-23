@@ -2,9 +2,9 @@
 
 This is an app for monitoring and tracking tasks.
 
-In total, there are 4 views
+In total, there are 3 major views
 
-1. The home view, which is accessible to ALL users and is unprotected.
+1. The home/welcome view, which is accessible to ALL users and is unprotected.
 2. The login view, accessible only to UNAUTHENTICATED users.
 3. The tasks view, accessible only to AUTHENTICATED users.
 
