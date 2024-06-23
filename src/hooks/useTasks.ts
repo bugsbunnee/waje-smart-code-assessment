@@ -45,7 +45,7 @@ const useTasks = (): TaskResult => {
         setTasks(updatedTasks);
 
         try {
-            await apiClient.update({ id: taskId, status: true });
+            await apiClient.update({ id: taskId, completed: true });
         } catch (error) {
             setTasks(allTasks);
             
